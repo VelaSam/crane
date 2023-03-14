@@ -1,8 +1,8 @@
-# Grue_ProjetMultisciplinaire
-Systèmes Embarqués
-Code pour le Projet Multidisciplinaire. Un fichier contenant le programme de la grue et un autre fichier contenant le programme de la manette
+# Crane
+Embedded systems
+Code for the Multidisciplinary Project. A file containing the crane program and another file containing the joystick program
 
-Le fichier de manette s'occupe de la logique. Elle prends constamment le input de l'utilisateur (quel moteur qu'il faut tourner, quelle direction, quelle vitesse,
-mise en mode automatique ou manuelle, etc...) et ensuite elle met toute l'information sous forme de string qui sera envoyée par module WiFi au PCB sur la grue.
+The joystick file takes care of the logic. It constantly takes input from the user (which motor to turn, which direction, which speed,
+put in automatic or manual mode, etc...) and then it puts all the information in the form of a string which will be sent by WiFi module to the PCB on the crane.
  
-Le PCB de la grue recoit le string et ensuite il split les informations et ensuite il envoit le courant respectif à la broche respective pour faire activer les moteurs
+The crane PCB receives the string and then it splits the information and then it sends the respective current to the respective pin to activate the motors
